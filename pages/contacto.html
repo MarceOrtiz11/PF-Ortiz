@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctora Ivanna Meloni - Psiquiatra Especialista en Ansiedad y Neurociencias Aplicadas a Deportes de Alto
+        Rendimiento</title>
+    <link rel="shortcut icon" href="../img/iconos/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary botonera sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/logos/logo1.png" alt="Logo-Proyecto">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobremi.html">Sobre Mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./preguntas.html">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./participaciones.html">Participaciones</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- El formulario de contacto esta enlazado a formsumit.co solo para hacerlo funcional x ahora, pendiente de modificar y quitar name:"name" -->
+
+    <main>
+        <h1>Contactame</h1>
+        <section class="contenedor-contacto">
+            <form class="form-contacto" action="https://formsubmit.co/drameloni.turnos@gmail.com" method="POST">
+                <div class="div-contacto">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="name" id="nombre">
+                </div>
+                <div class="div-contacto">
+                    <label for="tel">Telefono</label>
+                    <input type="tel" name="phone" id="tel">
+                </div>
+                <div class="div-contacto">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="div-contacto">
+                    <label for="mensaje">Deje Su Mensaje</label>
+                    <textarea name="message" id="mensaje" cols="60" rows="10"></textarea>
+                </div>
+                <div>
+                    <input class="boton-contacto" type="submit" value="Enviar">
+                </div>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/"> <!-- renovar para probar en cada live server -->
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+            <aside class="aside-contacto">
+                <div class="div-dato-contacto">
+                    <img src="../img/iconos/phone.svg" alt="Telefono">
+                    <p>(+5411) 54051509</p>
+                </div>
+                <div class="div-dato-contacto">
+                    <img src="../img/iconos/mail.svg" alt="Mail">
+                    <p>drameloni.turnos@gmail.com</p>
+                </div>
+                <div class="div-dato-contacto">
+                    <img src="../img/iconos/office.svg" alt="Ubicacion1">
+                    <p>Rivadavia y Acoyte - Caballito</p>
+                </div>
+                <div class="div-dato-contacto">
+                    <img src="../img/iconos/office.svg" alt="Ubicacion2">
+                    <p>Echeverria y Bucarelli - Villa Urquiza</p>
+                </div>
+                <div class="div-dato-contacto">
+                    <img src="../img/iconos/clock.svg" alt="Horarios">
+                    <p>horarios de atencion: de Lunes a Viernes de 9.00 a 18.00 hs</p>
+                </div>
+            </aside>
+        </section>
+
+        <div class=div-iframe-contacto>
+            <div class="iframe-contacto">
+                <h5 class="h5-contacto">Consultorio en Rivadavia y Acoyte - Caballito - CABA</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52539.08890483153!2d-58.49635849178459!3d-34.61192238398448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1686953732877!5m2!1ses!2sar" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="iframe-contacto">
+                <h5 class="h5-contacto">Consultorio en Echeverria y Bucarelli - Villa Urquiza - CABA</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52539.08890483153!2d-58.49635849178459!3d-34.61192238398448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1686953732877!5m2!1ses!2sar" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Consultorios en Caballito y Villa Urquiza -- ( CABA ) --</p>
+        <div>
+            <a class="img-footer" href="https://www.instagram.com/">
+                <img src="../img/iconos/instagram.svg" alt="Seguime en Instagram">
+            </a>
+            <a class="img-footer" href="https://www.facebook.com/">
+                <img src="../img/iconos/facebook.svg" alt="Seguime en Facebook">
+            </a>
+            <a class="img-footer" href="https://www.twitter.com/">
+                <img src="../img/iconos/twitter.svg" alt="Seguime en Twitter">
+            </a>
+        </div>
+        <div>
+            <a class="img-footer" href="https://wa.me/1130331000">
+                <img src="../img/iconos/whatsapp.svg" alt="Whatsapp">
+            </a>
+            <a class="img-footer" href="mailto:drameloni.turnos@gmail.com?subject=Hola Doctora, queria consultar sobre sus servicios&body=cuerpo del mensaje">
+                <img src="../img/iconos/mail2.svg" alt="Enviar Correo">
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

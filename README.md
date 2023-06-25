@@ -1,5 +1,11 @@
 # proyectonuevo-coder
 
-🙌Primer Readme de prueba🙌
+- 👋 Hi, I’m @MarceOrtiz11
+- 🌱 I’m currently learning ...
+
+- 🙌Primer Readme de prueba🙌 -
+
+
+
 
 <!-- Todo en progreso -->

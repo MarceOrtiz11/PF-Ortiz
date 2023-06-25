@@ -444,7 +444,7 @@ footer{
         grid-area: foto6;
     }
 
-/* Prueba Pseudoclases */
+/* Otra Prueba Pseudoclases */
 
 /*
 main p::first-letter{
@@ -455,4 +455,68 @@ main p::first-letter{
 }
 */
 
-/* falta hacer todo esto responsive */
+/* Prueba de Responsive */
+
+@media (width < 541px){
+    .section-index{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer p{
+        display: none;
+    }
+
+    .contenedor-contacto{
+        display: flex;
+        flex-direction: row wrap;
+    }
+
+    .form-contacto{
+        width: 45%;
+    }
+
+    .aside-contacto{
+        width: 40%;
+        margin-top: 0;
+    }
+
+    .div-iframe-contacto{
+        display: none;
+    }
+
+    .galeria{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (width < 321px){
+    .section2-sobremi{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .article-sobremi{
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .contenedor-contacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-contacto{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .aside-contacto{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+}

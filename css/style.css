@@ -378,6 +378,7 @@ footer{
 
                 
 /* pagina de seminarios y participaciones */ /* titulo y contenido a definir */ /* prueba de Grids */
+/* la idea es armar un arbol con imagen principal y 2 a 3 secundarias a definir */
 
 .parrafo-participaciones{
     font-size: 1.6em;
@@ -404,8 +405,9 @@ footer{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: 
-    "foto1 foto2"
-    "foto3 foto4"
+    "foto1 foto1"
+    "foto2 foto3"
+    "foto4 foto4"
     "foto5 foto6";
 }
 

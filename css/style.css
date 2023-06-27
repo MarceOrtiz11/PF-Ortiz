@@ -457,6 +457,8 @@ main p::first-letter{
 
 /* Prueba de Responsive */
 
+/* Revisar Formulario de Contacto en todas */
+
 @media (width < 541px){
     .section-index{
         display: flex;
@@ -469,7 +471,7 @@ main p::first-letter{
 
     .contenedor-contacto{
         display: flex;
-        flex-direction: row wrap;
+        flex-direction: column;
     }
 
     .form-contacto{

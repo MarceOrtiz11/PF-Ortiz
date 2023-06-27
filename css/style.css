@@ -494,6 +494,11 @@ main p::first-letter{
 }
 
 @media (width < 321px){
+    .section-servicios{
+        display: flex;
+        flex-direction: column;
+    }
+
     .section2-sobremi{
     display: flex;
     flex-direction: column;

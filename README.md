@@ -6,7 +6,7 @@
 
 - 🙌Primer Readme de Prueba🙌 -
 
-- 👀 Link Repo: https://github.com/MarceOrtiz11/proyectonuevo-coder.git
+- 👀 Link Repo: https://github.com/MarceOrtiz11/PreEntrega2-Ortiz.git
 
 - 🚀 Link Pages: https://marceortiz11.github.io/proyectonuevo-coder/
 

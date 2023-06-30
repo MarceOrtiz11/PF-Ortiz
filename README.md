@@ -8,6 +8,6 @@
 
 - 👀 Link Repo: https://github.com/MarceOrtiz11/PreEntrega2-Ortiz.git
 
-- 🚀 Link Pages: https://marceortiz11.github.io/proyectonuevo-coder/
+- 🚀 Link Pages: https://marceortiz11.github.io/PreEntrega2-Ortiz/
 
 <!-- Todo en progreso -->

@@ -469,18 +469,29 @@ main p::first-letter{
         display: none;
     }
 
+    .img1-sobremi{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .parrafo-sobremi{
+        margin-top: 50px;
+    }
+
     .contenedor-contacto{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .form-contacto{
-        width: 45%;
+        width: 90%;
     }
 
     .aside-contacto{
-        width: 40%;
-        margin-top: 0;
+        width: 90%;
+        margin-top: 50px;
     }
 
     .div-iframe-contacto{
@@ -490,7 +501,9 @@ main p::first-letter{
     .galeria{
         display: flex;
         flex-direction: column;
+        width: 99%;
     }
+
 }
 
 @media (width < 321px){

@@ -8,3 +8,4 @@ fuentes/
 *.vscode
 passwords.txt
 *.json
+scss/

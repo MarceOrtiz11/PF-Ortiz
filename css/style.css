@@ -15,7 +15,7 @@
 
 body{
     font-size: 62.5%;
-    background-image: url(../img/backgrounds/molecula.avif);
+    background-image: url(../img/backgrounds/);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -460,6 +460,10 @@ main p::first-letter{
 /* Revisar Formulario de Contacto en todas */
 
 @media (width < 541px){
+    .nav-item{
+        width: 30%;
+    }
+
     .section-index{
         display: flex;
         flex-direction: column;

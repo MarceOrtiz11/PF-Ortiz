@@ -1,4 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+.h1-gral, .h1-destacado {
+  font-size: 3.6em;
+  font-variant: small-caps;
+  color: rgb(88, 12, 116);
+  text-align: center;
+  margin: 50px;
+}
+
+.h1-destacado {
+  text-transform: lowercase;
+  font-style: italic;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   padding: 0;
@@ -13,14 +26,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-}
-
-h1 {
-  font-size: 3.6em;
-  font-variant: small-caps;
-  color: rgb(88, 12, 116);
-  text-align: center;
-  margin: 50px;
 }
 
 nav {
@@ -209,7 +214,6 @@ footer img {
   font-variant: small-caps;
   margin-top: 16px;
 }
-
 .aside-contacto img {
   width: 30px;
   height: 30px;
@@ -220,7 +224,6 @@ footer img {
   margin: 5px;
   padding: 12px;
 }
-
 .div-dato-contacto p {
   margin-left: 16px;
   color: rgb(161, 111, 214);
@@ -254,9 +257,7 @@ footer img {
   border-radius: 4cqmin;
   padding: 3px;
 }
-
-.boton-contacto:hover,
-.boton-contacto:focus {
+.boton-contacto:hover, .boton-contacto:focus {
   background-color: rgb(141, 95, 157);
   color: white;
   transition: background-color 1s ease-out;

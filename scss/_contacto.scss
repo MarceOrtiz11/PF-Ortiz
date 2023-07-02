@@ -25,23 +25,21 @@
     color: rgb(24, 2, 44);
     font-variant: small-caps;
     margin-top: 16px;
-}
-
-.aside-contacto img {
-    width: 30px;
-    height: 30px;
+    img {
+        width: 30px;
+        height: 30px;
+        }
 }
 
 .div-dato-contacto {
     display: flex;
     margin: 5px;
     padding: 12px;
-}
-
-.div-dato-contacto p {
-    margin-left: 16px;
-    color: rgb(161, 111, 214);
-    margin-top: 5px;
+    p {
+        margin-left: 16px;
+        color: rgb(161, 111, 214);
+        margin-top: 5px;
+    }   
 }
 
 .div-iframe-contacto {
@@ -70,12 +68,11 @@
     font-size: .7em;
     border-radius: 4cqmin;
     padding: 3px;
-}
-
-.boton-contacto:hover,
-.boton-contacto:focus {
-    background-color: rgb(141, 95, 157);
-    color: white;
-    transition: background-color 1s ease-out;
-    outline: 0;
+    &:hover,
+    &:focus {
+            background-color: rgb(141, 95, 157);
+            color: white;
+            transition: background-color 1s ease-out;
+            outline: 0;
+            }       
 }

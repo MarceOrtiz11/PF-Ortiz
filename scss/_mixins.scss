@@ -1,0 +1,13 @@
+.h1-gral {
+    font-size: $mainSize;
+    font-variant: $mainVariant;
+    color: $mainColor;
+    text-align: $mainAlign;
+    margin: $mainMargin;
+}
+
+.h1-destacado {
+    @extend .h1-gral;
+    text-transform: lowercase;
+    font-style: italic;
+}

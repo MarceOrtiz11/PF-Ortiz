@@ -319,6 +319,10 @@ footer img {
 }
 
 @media (width < 541px) {
+  body {
+    background-image: url(../img/backgrounds/molecula2.avif);
+    background-repeat: repeat;
+  }
   .nav-item {
     width: 30%;
   }
@@ -329,12 +333,26 @@ footer img {
   footer p {
     display: none;
   }
+  .parrafo-index {
+    width: 80%;
+  }
+  .img-index {
+    width: 80%;
+  }
+  .section-servicios {
+    display: flex;
+    flex-direction: column;
+  }
+  .article-servicios {
+    width: 90%;
+  }
   .img1-sobremi {
     width: 90%;
     margin: 0 auto;
     padding: 0 auto;
   }
   .parrafo-sobremi {
+    width: 80%;
     margin-top: 50px;
   }
   .contenedor-contacto {

@@ -89,15 +89,24 @@ footer img {
   margin-bottom: 75px;
 }
 
-.parrafo-index {
-  width: 40%;
+.parrafo-index-1 {
+  width: 70%;
   font-size: 1.6em;
   color: rgb(61, 3, 115);
   line-height: 40px;
 }
 
+.parrafo-index-2 {
+  width: 40%;
+  font-size: 1.2em;
+  line-height: 40px;
+  font-style: italic;
+  font-weight: 600;
+  color: rgb(61, 3, 115);
+}
+
 .img-index {
-  width: 45%;
+  width: 30%;
 }
 
 .section-servicios {
@@ -182,6 +191,61 @@ footer img {
   font-variant: small-caps;
 }
 
+.parrafo-participaciones {
+  font-size: 1.6em;
+  color: chocolate;
+  text-align: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.grid {
+  width: 99%;
+  display: grid;
+  text-align: center;
+  align-items: center;
+}
+
+.template-areas {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "foto1 foto1" "foto2 foto3" "foto4 foto4" "foto5 foto6";
+}
+
+.template-areas {
+  gap: 100px;
+  padding: 100px 200px 200px 200px;
+}
+
+.galeria a img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.foto1 {
+  grid-area: foto1;
+}
+
+.foto2 {
+  grid-area: foto2;
+}
+
+.foto3 {
+  grid-area: foto3;
+}
+
+.foto4 {
+  grid-area: foto4;
+}
+
+.foto5 {
+  grid-area: foto5;
+}
+
+.foto6 {
+  grid-area: foto6;
+}
+
 .section-preguntas {
   display: flex;
 }
@@ -264,60 +328,6 @@ footer img {
   outline: 0;
 }
 
-.parrafo-participaciones {
-  font-size: 1.6em;
-  color: chocolate;
-  text-align: center;
-  align-items: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.grid {
-  width: 99%;
-  display: grid;
-  text-align: center;
-  align-items: center;
-}
-
-.template-areas {
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: "foto1 foto1" "foto2 foto3" "foto4 foto4" "foto5 foto6";
-}
-
-.template-areas {
-  gap: 100px;
-  padding: 100px 200px 200px 200px;
-}
-
-.galeria a img {
-  object-fit: cover;
-}
-
-.foto1 {
-  grid-area: foto1;
-}
-
-.foto2 {
-  grid-area: foto2;
-}
-
-.foto3 {
-  grid-area: foto3;
-}
-
-.foto4 {
-  grid-area: foto4;
-}
-
-.foto5 {
-  grid-area: foto5;
-}
-
-.foto6 {
-  grid-area: foto6;
-}
-
 @media (width < 541px) {
   body {
     background-image: url(../img/backgrounds/molecula2.avif);
@@ -333,8 +343,13 @@ footer img {
   footer p {
     display: none;
   }
-  .parrafo-index {
+  .parrafo-index-1 {
+    width: 90%;
+  }
+  .parrafo-index-2 {
     width: 80%;
+    margin-top: 70px;
+    line-height: 25px;
   }
   .img-index {
     width: 80%;
@@ -402,6 +417,4 @@ footer img {
     margin: 0 auto;
     padding: 0 auto;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

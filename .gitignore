@@ -1,5 +1,7 @@
 node_modules/
 fuentes/
+scss/
+*.scss
 *.log
 *.logs
 *.map
@@ -7,3 +9,4 @@ fuentes/
 *.psd
 *.vscode
 passwords.txt
+*.json

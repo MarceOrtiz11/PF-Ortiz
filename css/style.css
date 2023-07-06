@@ -373,7 +373,6 @@ footer img {
   .galeria {
     display: flex;
     flex-direction: column;
-    width: 99%;
   }
 }
 @media (width < 321px) {

@@ -93,20 +93,20 @@ footer img {
   width: 70%;
   font-size: 1.6em;
   color: rgb(61, 3, 115);
-  line-height: 40px;
+  line-height: 30px;
 }
 
 .parrafo-index-2 {
-  width: 40%;
+  width: 50%;
   font-size: 1.2em;
-  line-height: 40px;
+  line-height: 30px;
   font-style: italic;
   font-weight: 600;
   color: rgb(61, 3, 115);
 }
 
 .img-index {
-  width: 30%;
+  width: 25%;
 }
 
 .section-servicios {
@@ -200,26 +200,31 @@ footer img {
 }
 
 .grid {
-  width: 99%;
   display: grid;
   text-align: center;
   align-items: center;
 }
 
 .template-areas {
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: "foto1 foto1" "foto2 foto3" "foto4 foto4" "foto5 foto6";
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "foto1 foto1 foto11 foto11" "foto22 foto33 foto2 foto3" "foto4 foto4 foto44 foto44" "foto5 foto5 foto6 foto6 ";
 }
 
 .template-areas {
-  gap: 100px;
-  padding: 100px 200px 200px 200px;
+  gap: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0 auto;
+}
+
+.galeria {
+  width: 99%;
 }
 
 .galeria a img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: scale-down;
+  width: 99%;
 }
 
 .foto1 {
@@ -370,6 +375,10 @@ footer img {
     width: 80%;
     margin-top: 50px;
   }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+  }
   .contenedor-contacto {
     display: flex;
     flex-direction: column;
@@ -384,10 +393,6 @@ footer img {
   }
   .div-iframe-contacto {
     display: none;
-  }
-  .galeria {
-    display: flex;
-    flex-direction: column;
   }
 }
 @media (width < 321px) {
@@ -417,4 +422,6 @@ footer img {
     margin: 0 auto;
     padding: 0 auto;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

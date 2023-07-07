@@ -1,0 +1,28 @@
+.section-index {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.parrafo-index-1 {
+    width: 70%;
+    font-size: 1.6em;
+    color: rgb(61, 3, 115);
+    line-height: 30px;
+}
+
+.parrafo-index-2 {
+    width: 50%;
+    font-size: 1.2em;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(61, 3, 115);
+}
+
+.img-index {
+    width: 25%;
+}

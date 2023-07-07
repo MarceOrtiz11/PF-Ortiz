@@ -1,0 +1,113 @@
+@media (width < 541px) {
+    body {
+        background-image: url(../img/backgrounds/molecula2.avif);
+        background-repeat: repeat;
+        }
+
+    .nav-item {
+        width: 30%;
+    }
+
+    .section-index {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer p {
+        display: none;
+    }
+
+    .parrafo-index-1 {
+        width: 90%;
+    }
+
+    .parrafo-index-2{
+        width: 80%;
+        margin-top: 70px;
+        line-height: 25px;
+    }
+        
+    .img-index {
+        width: 80%;
+    }
+
+    .section-servicios{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article-servicios{
+        width: 90%;
+    }
+
+    .img1-sobremi {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .parrafo-sobremi {
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .galeria {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-contacto {
+        width: 90%;
+    }
+
+    .aside-contacto {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .div-iframe-contacto {
+        display: none;
+    }
+
+}
+
+@media (width < 321px) {
+    .section-servicios {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2-sobremi {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article-sobremi {
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .contenedor-contacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-contacto {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .aside-contacto {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+}

@@ -6,8 +6,8 @@
 -
 - 🙌Primer Readme de Prueba🙌 -
 -
-- 👀 Link Repo: https://github.com/MarceOrtiz11/PreEntrega2-Ortiz.git
+- 👀 Link Repo: https://github.com/MarceOrtiz11/PreEntrega3-Ortiz.git
 -
-- 🚀 Link Pages: https://marceortiz11.github.io/PreEntrega2-Ortiz/
+- 🚀 Link Pages: https://marceortiz11.github.io/PreEntrega3-Ortiz/
 
 <!-- Todo en progreso -->

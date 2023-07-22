@@ -6,9 +6,10 @@
 -
 - 🙌Este es mi Primer Readme (solo una Prueba)🙌 -
 -
--👨‍🎓I´m student at CoderHouse Academy.🎓 
+- 👨‍🎓I´m student at CoderHouse Academy🎓 
 -
--🧶 I´m a Wireframe!! of the most "Pipirinais" teacher.🎓   
+- 🧶 I´m a Wireframe!! of the most "Pipirinais" teacher🎓   
+-
 -
 - 👀 Link Repo: https://github.com/MarceOrtiz11/PF-Ortiz.git
 -

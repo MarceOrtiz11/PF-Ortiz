@@ -2,8 +2,6 @@ nav {
     position: sticky;
     top: 0;
     left: 0;
-    background-image: url(../img/backgrounds/violet.jpg);
-    background-size: cover;
     font-size: 12px;
     img {
         width: 50px;
@@ -22,7 +20,7 @@ nav {
 }
 
 .botonera a {
-    color: white;
+    color: rgb(253, 239, 225);
 }
 
 /* animacion a pedido del Tutor */

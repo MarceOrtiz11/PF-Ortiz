@@ -1,7 +1,7 @@
 # PF-Ortiz
 
 - 👋 Hi, I’m @MarceOrtiz11 
-- 🌱 I’m currently learning ...
+- 🌱 I’m currently learning .....
 -
 -
 - 🙌Este es mi Primer Readme (solo una Prueba)🙌 -
@@ -16,4 +16,4 @@
 - 🚀 Link Pages: https://marceortiz11.github.io/PF-Ortiz/
 
 <!-- Todo en progreso -->
-<!-- En un futuro, cuando pueda dedicarme de lleno a esto, prometo hacer sitios "más más pipirinais">
+<!-- En un futuro, cuando pueda dedicarme de lleno a esto, prometo hacer sitios "más pipirinais">

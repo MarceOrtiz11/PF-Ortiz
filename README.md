@@ -16,4 +16,4 @@
 - 🚀 Link Pages: https://marceortiz11.github.io/PF-Ortiz/
 
 <!-- Todo en progreso -->
-<!-- En un futuro, cuando pueda dedicarme de lleno a esto, prometo hacer sitios "más pipirinais">
+<!-- En un futuro, cuando pueda dedicarme de lleno a esto, prometo hacer sitios "más más pipirinais">

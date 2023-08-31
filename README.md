@@ -1,7 +1,7 @@
 # PF-Ortiz
 
 - 👋 Hi, I’m @MarceOrtiz11 
-- 🌱 I’m currently learning .....
+- 🌱 I’m currently learning ...
 -
 -
 - 🙌Este es mi Primer Readme (solo una Prueba)🙌 -
